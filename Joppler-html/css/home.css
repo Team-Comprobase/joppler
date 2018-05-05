@@ -1,0 +1,232 @@
+
+/*FIND A CANDIDATE AND BANNER*/
+
+
+
+/*END: FIND A CANDIDATE AND BANNER*/
+
+
+/*HOW IT WORKS*/
+.how-it-works-container {
+    padding: 30px 0 0 0
+}
+
+.how-it-works-container .has-bg {
+    background-color: #32c0ec;
+    padding: 15px 0;
+    text-align: center;
+    display: block;
+    margin-bottom: 30px
+}
+
+.how-it-works-container .has-bg h2 {
+    margin: 0;
+    color:#fff;
+}
+
+.banner-parent figcaption h1 span {
+    color: #32c0ec;
+    font-weight: 700;
+}
+
+.content-body-right h2 {
+    color: #32c0ec;
+    font-weight: 700;
+}
+
+.how-it-works-container ul:before,
+.how-it-works-container ul:after {
+    content: " ";
+    display: table
+}
+
+.how-it-works-container ul:after {
+    clear: both
+}
+
+.how-it-works-container ul li {
+    text-align: center;
+    width: 25%;
+    float: left;
+    padding-left: 40px
+}
+
+.how-it-works-container ul li:first-child {
+    padding-left: 0
+}
+
+.how-it-works-container ul li span {
+    border: 2px solid #32c0ec;
+    border-radius: 50%;
+    color: #32c0ec;
+    width: 55px;
+    height: 55px;
+    display: inline-block;
+    line-height: 58px
+}
+
+.how-it-works-container ul li span i {
+    font-size: 1.4em
+}
+
+.how-it-works-container ul li h5 {
+    font-size: 28px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    padding-top: 20px;
+    color: #32c0ec;
+}
+
+.how-it-works-container p {
+    text-align: center
+}
+
+@media (max-width: 768px) {
+    .how-it-works-container ul li {
+        text-align: center;
+        width: 100%;
+        float: none;
+        padding-left: 0
+    }
+    .how-it-works-container ul li span {
+        border: 2px solid #32c0ec;
+        border-radius: 50%;
+        color: #32c0ec;
+        width: 55px;
+        height: 55px;
+        display: inline-block;
+        line-height: 58px
+    }
+    .how-it-works-container ul li span i {
+        font-size: 1.4em
+    }
+    .how-it-works-container ul li h5 {
+        font-size: 28px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 400;
+        padding-top: 20px
+    }
+}
+/*END: HOW IT WORKS*/
+
+/*WHAT IS JOPPLER*/
+.img-holder {
+    width: 100%
+}
+
+.img-holder img {
+    width: 100%
+}
+
+.content-body-right {
+    padding: 55px 0
+}
+/*END: WHAT IS JOPPLER*/
+
+/*TESTIMONIALS*/
+
+.testi-parent {
+    width: 60%;
+    margin: 40px auto
+}
+
+.testi-parent:before,
+.testi-parent:after {
+    content: " ";
+    display: table
+}
+
+.testi-parent:after {
+    clear: both
+}
+
+.testi-parent hr {
+    border-top: 2px solid #ececec
+}
+
+.testi-parent h3 {
+    text-align: right;
+    color: #32c0ec;
+    font-size: 23px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 20px
+}
+
+.testi-parent ul:before,
+.testi-parent ul:after {
+    content: " ";
+    display: table
+}
+
+.testi-parent ul:after {
+    clear: both
+}
+
+.testi-parent ul li.text {
+    width: 68%;
+    float: left;
+    text-align: left;
+    padding: 18px
+}
+
+.testi-parent ul li.text .quote-left {
+    float: left;
+    width: 20%
+}
+
+.testi-parent ul li.text p {
+    text-align: right;
+    margin-bottom: 15px
+}
+
+.testi-parent ul li.text h5 {
+    text-align: right
+}
+
+.testi-parent ul li.img {
+    width: 32%;
+    float: left;
+    padding: 10px 0 10px 30px
+}
+
+.testi-parent ul li.img img {
+    width: 100%
+}
+
+@media (max-width: 768px) {
+    .testi-parent {
+        width: 100%
+    }
+    .testi-parent h3 {
+        text-align: center;
+        font-size: 20px
+    }
+    .testi-parent ul li.text {
+        width: 100%;
+        float: none;
+        text-align: center
+    }
+    .testi-parent ul li.text .quote-left {
+        display: none
+    }
+    .testi-parent ul li.text p {
+        text-align: center;
+        margin-bottom: 15px
+    }
+    .testi-parent ul li.text h4 {
+        text-align: center
+    }
+    .testi-parent ul li.img {
+        width: 100%;
+        float: none;
+        padding: 0;
+        text-align: center
+    }
+    .testi-parent ul li.img img {
+        width: 60%
+    }
+}
+
+/*END: TESTIMONIALS

@@ -1,0 +1,21 @@
+span.profile-success {
+    color: #8BCC1A;
+}
+
+.progressbar-container span.progress-steps {
+    float: right;
+    color: #32c0ec;
+    font-weight: bold;
+}
+.progressbar-container span.progress-steps-success {
+    float: right;
+    color: #8BCC1A;
+    font-weight: bold;
+}
+
+h5 span {
+    color: #32c0ec;
+}
+.pb-custom-success {
+    background-color: #8BCC1A;
+}
