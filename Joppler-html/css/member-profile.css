@@ -1,0 +1,57 @@
+/*MEMBER PROFILE STYLES*/
+.card-title-blue {
+         color: #32C0EC;
+        font-weight: bold;
+    }
+    .joppler-box {
+            width: 100%;
+            position: relative;
+            /*background: grey;*/
+            padding: 6px 0;
+        }
+        .joppler-badge {
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 33px;
+            width: 27px;
+            background-size: cover;
+            display: inline-block;
+            margin: 0 auto;
+        }
+
+        .joppler-box-enlarger {
+            height: 100% !important;
+        }
+
+        .enlarge-badge {
+            background-size: contain !important;
+            height: 100% !important;
+            width: 100% !important;
+        }
+
+
+        .joppler-badge span.figure {
+            margin: 9px 0 0 0;
+            color: #fff;
+            font-size: 13px;
+            font-weight: bold;
+        }
+
+        .joppler-badge-font-size {
+            margin: 25px 0 0 0 !important;
+            font-size: 30px !important;
+            text-shadow: 1px 1px 0px #a0a0a0;
+        }
+
+
+        .joppler-badge.orange {
+            background-image: url(../img/joppler-orange.png);
+        }
+        .joppler-badge.blue {
+            background-image: url(../img/joppler-blue.png);
+        }
+        .joppler-badge.green {
+            background-image: url(../img/joppler-green.png);
+        }
+
+/*MEMBER PROFILE STYLES*/

@@ -2831,6 +2831,7 @@ header .push-right {
 
 header .header-top {
     padding: 5px 0 8px
+    background-color: #fff;
 }
 
 header .header-bottom {

@@ -1,0 +1,19 @@
+a.facebook-button {
+    background-color: #425BB4;
+    color: #fff;
+    padding: 10px 0;
+    text-decoration: none;
+    margin: 0px 0 10px;
+    display: inline-block;
+    width: 250px;
+}
+
+a.twitter-button {
+    background-color: #34BBF0;
+    color: #fff;
+    padding: 10px 0px;
+    text-decoration: none;
+    margin: 0px 0 10px;
+    display: inline-block;
+    width: 250px;
+}

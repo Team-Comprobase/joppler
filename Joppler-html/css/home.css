@@ -1,3 +1,52 @@
+/*NEW LOGIN CSS IN HOME PAGE*/
+
+body {
+    background-color: #fff !important;
+}
+
+.login-box {
+            background-color: #ffffff;
+            height: auto;
+            position: absolute;
+            right: 20px;
+            top: 0;
+            width: 33%;
+            z-index: 100;
+            text-align: center;
+            box-shadow: 0 -10px 25px #00000021;
+            padding: 0 0 19px 0;
+        }
+        .login-box h1 {
+            color: #32c0ec;
+            font-size: 30px;
+            font-weight: 700;
+            text-align: center;
+            margin: 10px 0;
+        }
+        .login-box p {
+            font-weight: 300;
+            font-size: 12px;
+            text-align: center;
+            line-height: 17px;
+            padding: 0 20px;
+        }
+
+        .btn-custom-primary-submit {
+            border-radius: 0 0 100px 100px;
+            background-color: #32c0ec;
+            color: #fff !important;
+            font-family: 'Raleway', sans-serif;
+            font-weight: 600;
+            font-size: 14px;
+            margin-right: 1px;
+            transition: 0.5s ease background-color;
+            box-shadow: 0 2px 3px #00000059;
+        }
+/*END: NEW LOGIN CSS IN HOME PAGE*/
+
+
+
+
 
 /*FIND A CANDIDATE AND BANNER*/
 
