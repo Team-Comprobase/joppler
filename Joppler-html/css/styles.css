@@ -1,6 +1,40 @@
 @import url("https://use.fontawesome.com/releases/v5.0.9/css/all.css");
 @import url("https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700");
 
+
+
+.nav-link {
+    display: block;
+    padding: 0 1rem;
+}
+
+    header .header-bottom ul li {
+        line-height: 24px !important;
+    }
+    header .header-bottom ul li:hover a {
+        color: #505050 !important;
+    }
+@media (max-width: 767px){
+    .navbar {
+        padding: 0 !important;
+    }
+    header .header-bottom ul li {
+        border-right:0 !important;
+    }
+    .dropdown-menu{
+        padding: 0 !important;
+        font-size: 13px;
+        background-color: transparent !important;
+        border: none !important;
+    }
+    .dropdown-item {
+        padding: 0 1.5rem;
+    }
+
+}
+
+
+
 h5 span {
     color: rgb(50, 192, 236);
 }

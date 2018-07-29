@@ -7,10 +7,8 @@ body {
 .login-box {
             background-color: #ffffff;
             height: auto;
-            position: absolute;
             right: 20px;
             top: 0;
-            width: 33%;
             z-index: 100;
             text-align: center;
             box-shadow: 0 -10px 25px #00000021;
@@ -42,6 +40,21 @@ body {
             transition: 0.5s ease background-color;
             box-shadow: 0 2px 3px #00000059;
         }
+
+@media (min-width: 768px) {
+.login-box {
+        position: absolute;
+        width: 33%;
+    }
+}
+
+@media (max-width: 767px) {
+.login-box {
+        position: relative;
+        left:0px;
+        top: 0;
+    }
+}
 /*END: NEW LOGIN CSS IN HOME PAGE*/
 
 
