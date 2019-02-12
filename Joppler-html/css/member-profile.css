@@ -38,8 +38,8 @@
         }
 
         .joppler-badge-font-size {
-            margin: 25px 0 0 0 !important;
-            font-size: 30px !important;
+            margin: 9px 0 0 6px !important;
+            /* font-size: 30px !important; */
             text-shadow: 1px 1px 0px #a0a0a0;
         }
 
